@@ -1,26 +1,21 @@
 // any
-let resAny;
+let resAny: any;
 resAny = 12;
 resAny = "admin";
 
-// unknown
+// unknown -> not sure, which type will come
 let resUnknown: unknown;
 resUnknown = 13;
 resUnknown = "user";
 
 if (typeof resUnknown == "string") resUnknown.toUpperCase();
 
-// null
-let resNull: null;
-resNull = null;
-
-// undefined
-let resUndefined: undefined;
-resUndefined = undefined;
-
 // never
 function resNever(): never {
-    while (true) {}
+    // do something endlessly
+    while (true) {
+        console.log("something went wrong");
+    }
 }
 resNever();
 console.log("end");

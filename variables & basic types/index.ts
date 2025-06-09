@@ -9,3 +9,12 @@ c = false;
 
 let d: string;
 d = "12";
+
+let e: number = 12_3456_87;
+e = 13;
+
+let resNull: null;
+resNull = null;
+
+let resUndefined: undefined;
+resUndefined = undefined;

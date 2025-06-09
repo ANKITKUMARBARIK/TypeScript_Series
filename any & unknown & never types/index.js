@@ -3,21 +3,18 @@
 let resAny;
 resAny = 12;
 resAny = "admin";
-// unknown
+// unknown -> not sure, which type will come
 let resUnknown;
 resUnknown = 13;
 resUnknown = "user";
 if (typeof resUnknown == "string")
     resUnknown.toUpperCase();
-// null
-let resNull;
-resNull = null;
-// undefined
-let resUndefined;
-resUndefined = undefined;
 // never
 function resNever() {
-    while (true) { }
+    // do something endlessly
+    while (true) {
+        console.log("something went wrong");
+    }
 }
 resNever();
 console.log("end");
