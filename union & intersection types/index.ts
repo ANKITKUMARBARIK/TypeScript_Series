@@ -38,19 +38,19 @@ function vibe(obj: role) {
 }
 
 //
-interface Student {
+interface Students {
     student_id: number;
     name: string;
 }
 
-interface Teacher {
+interface Teachers {
     Teacher_Id: number;
     teacher_name: string;
 }
 
-type intersected_type = Student & Teacher;
+type intersected_type = Students & Teachers;
 
-let obj1: intersected_type = {
+const obj1: intersected_type = {
     student_id: 3232,
     name: "rita",
     Teacher_Id: 7873,

@@ -23,7 +23,7 @@ function vibe(obj) {
     console.log(obj.isVerified);
     console.log(obj.getDetails("twitter"));
 }
-let obj1 = {
+const obj1 = {
     student_id: 3232,
     name: "rita",
     Teacher_Id: 7873,

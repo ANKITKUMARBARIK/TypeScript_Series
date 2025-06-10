@@ -52,9 +52,9 @@ function someGreeted(username: string, greeting: string = "unknown"): string {
 console.log(someGreeted("admin"));
 
 // function overloading
-function getLength(value: string): number;
-function getLength(value: any[]): number;
-function getLength(value: any): number {
+function getLen(value: string): number;
+function getLen(value: any[]): number;
+function getLen(value: any): number {
     return value.length;
 }
 

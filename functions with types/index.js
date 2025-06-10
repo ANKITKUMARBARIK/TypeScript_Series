@@ -43,7 +43,7 @@ function someGreeted(username, greeting = "unknown") {
     return `${greeting} ${username}`;
 }
 console.log(someGreeted("admin"));
-function getLength(value) {
+function getLen(value) {
     return value.length;
 }
 console.log(getLength("morning"));
